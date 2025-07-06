@@ -3,11 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>concat-my-acount</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>contact-my-acount</title>
+  <!-- icon link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- google-font-link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <h1>
-    hello world
-  </h1>
+  <!-- contact area coding-->
+  <section id="main-sctn">
+    <div id="heading">
+      <h1>please contact me if you have any physical illness</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo voluptatibus labore ipsam corporis asperiores voluptatem consectetur numquam optio consequuntur fuga.</p>
+
+    <div class="btn-div">
+      <button id="btn">contact-me</button>
+    </div>
+    </div>
+      <div id="main-contact-div">
+        <form class="chaild-from">
+          <div id="contact">
+            <label for="email">email <i class="fa-solid fa-envelope-open-text"></i></label>
+            <input type="email"  id="email" placeholder="input your email" required>
+          </div>
+          <div id="contact">
+            <label for="password">password <i class="fa-solid fa-key"></i></label>
+            <input type="password"  id="password" placeholder="input your password" required minlength="1" maxlength="8">
+          </div>
+          <div id="contact">
+            <label for="number">phone-number <i class="fa-solid fa-phone"></i></label> 
+            <input type="number"  id="number" placeholder="input your number" required>
+          </div>
+          <div id="contact">
+            <label for="text">please provide the information <i class="fa-solid fa-circle-info"></i></label>
+            <textarea  id="text" rows="10" cols="30" placeholder="please give your physical illness"></textarea>
+          </div>
+        </form>
+        <div class="button">
+          <button id="button">submit</button>
+        </div>
+      </div>
+  </section>
+
+  <script src="../app.js"></script>
 </body>
 </html>

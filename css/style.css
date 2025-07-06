@@ -1,0 +1,110 @@
+*{
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::selection{
+  background-color: red;
+  color: whitesmoke;
+}
+/* coding start */
+#main-sctn{
+  width: min(600px,90%);
+  margin: 20px auto;
+  background-color: rgba(235,235,235, 0.6);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px red;
+  
+  position: relative;
+  
+}
+
+#heading{
+  padding: 40px 60px;
+  
+}
+#heading h1, p,#btn{
+  margin-bottom: 20px;
+}
+
+#heading h1{
+  text-transform: capitalize;
+ color: blue;
+ font-weight: 700;
+ text-shadow: 0px 0px 2px;
+}
+#heading p{
+  color: red;
+  font-style: oblique;
+}
+#btn{
+  padding:15px 10px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px red;
+  text-transform: uppercase;
+  font-weight: normal;
+  color:red;
+  cursor: pointer;
+  transition: 3s;
+}
+#btn:hover{
+  background-color: red;
+  color: aliceblue;
+}
+
+
+#main-contact-div{
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color:rgba(26,140,184);
+  height:530px;
+  position: absolute;
+  top:-900px;
+
+  transition: 1s;
+
+  
+} 
+
+
+#contact label{
+ display: block;
+ text-transform: capitalize;
+ margin-top:20px;
+ margin-bottom: 5px; 
+ color: aliceblue;
+}
+#contact input:focus{
+  outline: none;
+}
+#contact input,textarea{
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 5px blue;
+  
+}
+
+.button{
+  padding:10px;
+}
+#button{
+  padding: 15px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: red;
+  transition: 1s;
+}
+
+#button:hover{
+  background-color: red;
+  color: aliceblue;
+}
